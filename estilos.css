@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.menu-navegacion {
+    background-color: rgb(20, 181, 209);
+    padding: 10px;
+    margin: 0;
+}
+
+.menu-navegacion li {
+    display: inline-block;
+}
+
+.menu-navegacion a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Pseudo selectores */
+.menu-navegacion a:hover {
+    background-color: rgb(20, 80, 90);
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+}
+
+.box img {
+    width: 100%;
+}
